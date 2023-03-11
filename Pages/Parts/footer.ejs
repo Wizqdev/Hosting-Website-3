@@ -1,0 +1,60 @@
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <!-- Company -->
+        <div class="col-md-3">
+          <div class="company">
+            <img src="./assets/img/logo.png" alt="Hosting-Image" />
+            <p>Address:  <%= config.footer.Address %></p>
+            <p>Copyright © <%= config.footer.year %>, <%= config.name %> Hosting. All Rights Reserved By <strong>Prajwal</strong></p>
+    
+            <div class="heading-block">
+              <h2 class="viper-border">Join</h2>
+            </div>
+            <ul>
+              <li>
+                <a href="/server"><img src="data:image/png;base64,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" alt="Discord"/></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="links">
+            <div class="heading-block">
+              <h2 class="viper-border">Services</h2>
+            </div>
+            <ul>
+              <li>
+                <a href="/dedicated">Dedicated Servers</a>
+              </li>
+              <li>
+                <a href="/vps">VPS Servers</a>
+              </li>
+              <li>
+                <a href="/game-servers">Game Servers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="links">
+            <div class="heading-block">
+              <h2 class="viper-border">Company</h2>
+            </div>
+            <ul>
+              <li>
+                <a href="/server">Contact us</a>
+              </li>
+              <li>
+                <a href="/terms">Terms of Service</a>
+              </li>
+              <li>
+                <a href="/privacy">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>

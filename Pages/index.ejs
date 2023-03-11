@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<!-- ======= Header ======= -->
+<%- include('./Parts/head') %> 
+<!-- End Header -->
+
+
+
+<body>
+
+
+<!-- ======= Header ======= -->
+<%- include('./Parts/header') %> 
+<!-- End Header -->
+
+    <!-- Hero -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="hero-section">
+      <h1 class="main-title viper-border"><%= config.name %></h1>
+      <p class="description">
+        <%= config.home.about %>
+      </p>
+      <div class="btns">
+        <a class="viper-btn btn-outline" href="/client">Get Started</a>
+        <a class="viper-btn btn-outline" href="/server">Contact</a>
+      </div>
+    </div>
+    <!-- Features -->
+    <div class="main-features">
+      <div class="heading-block">
+        <h3>Our Top Features</h3>
+        <h2 class="viper-border">Features</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- Item -->
+          <div class="col-md-3">
+            <div class="item">
+              <img src="./assets/img/icons/window.png" alt="viper" />
+              <h3>DDoS Protection</h3>
+              <p>
+                Our network at all our locations is protected by Enterprise DDoS protection to ensure that your server stays online, even during an attack. 
+              </p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="col-md-3">
+            <div class="item">
+              <img src="./assets/img/icons/policy-document.png" alt="viper" />
+              <h3>Guaranteed Satisfaction</h3>
+              <p>
+                If you're not satisfied with our services, you can request a refund within 24 hours of purchase. We stand behind our services!
+              </p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="col-md-3">
+            <div class="item">
+              <img src="./assets/img/icons/mail-filter.png" alt="viper" />
+              <h3>Powerful Hardwares
+              </h3>
+              <p>
+                Our servers is equipped with Blazing Fast CPU and provides you the High Perfomance and the Smoothness.
+              </p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="col-md-3">
+            <div class="item">
+              <img src="./assets/img/icons/online-support.png" alt="viper" />
+              <h3>Efficient Support
+              </h3>
+              <p>
+                Our 24/7 Support Team are always ready to help you, we offer support via various platforms such as live chat, tickets and email.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main Feature -->
+    <div class="main-feature-item right-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info">
+              <h6>Premium Network</h6>
+              <h1>Low Latency Network</h1>
+              <p>
+               Our ultra low latency network ensures amazing network performance all around the globe.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 text-right">
+            <img src="./assets/img/network.png" alt="viper" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <!-- Location -->
+  <%- include('./Parts/location') %> 
+  <!-- End Location -->
+
+
+  <!-- Footer -->
+  <%- include('./Parts/footer') %> 
+  <!-- End Footer -->
+
+
+    <!-- Jq -->
+    <script src="./assets/js/jquery-3.6.0.slim.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Maps -->
+    <script src="./assets/js/jquery.mousewheel.min.js"></script>
+    <script src="./assets/js/raphael.min.js"></script>
+    <script src="./assets/js/jquery.mapael.min.js"></script>
+    <script src="./assets/js/world_countries.min.js"></script>
+    <script src="./assets/js/map-config.js"></script>
+    <!-- Custom -->
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>

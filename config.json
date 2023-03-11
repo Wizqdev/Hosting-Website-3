@@ -1,0 +1,32 @@
+{
+    "name": "Hosting Name",
+    "website": {
+    "port": 8080,
+    "secret": "@"
+    },
+    "support": "",
+    
+
+    "home": {
+     "about": "Please Type About Your Host Something Here In config.json"
+    },
+
+    "about": {
+        "about": "Please Type About Your Host In Detial In config.json"
+    },
+
+    "footer": {
+        "Address": "",
+        "year": "2023"
+    },
+
+    "hosting": {
+        "client_domain": "",
+        "panel_domain": ""
+    },
+    
+    "status": {
+        "enabled": true,
+        "link": ""
+    }
+}
